@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="TouchTunes" verbose="0">
+	<test name="All Test" enabled="true">
+		<classes>
+		<class name="touch_Tunes.automation.testscripts.TestGoogleResults"></class>
+			<class name="touch_Tunes.automation.testscripts.TestLinksPages"></class>
+			
+		</classes>
+	</test>
+	
+
+</suite>
